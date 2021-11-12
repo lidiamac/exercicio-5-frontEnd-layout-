@@ -1,0 +1,147 @@
+html{
+    background-image: url("image/background.png");
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+
+/* header style */
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        padding: 30px;
+        margin: 10px;
+        background-color: #f8fdff;
+        border-radius: 80px;
+    }
+
+    .menu-principal{
+        width: 100%;
+    }
+
+    .menu-principal ul{
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .menu-principal ul li{
+        width: 150px;
+        text-align: center;
+        list-style: none;
+        background-color: #ff5252;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 14px;
+        border-radius: 2px;
+
+    }
+
+    .menu-principal a{
+        display: block;
+        text-decoration: none;
+        color: #2e0000;
+        font-weight: bold;
+    }
+    
+    .menu-principal li:hover{
+        background-color: #ffc6c6;
+    }
+/*end header style */
+
+
+/* main section*/
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-produtos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .container-produtos ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .container-produtos li{
+        width: 350px;
+        list-style: none;
+        padding: 5px;
+    }
+
+    .image-wine{
+        text-align: center;
+    }
+
+    .container-produtos li:hover{
+        background-color: #ffe3dfc9;
+    }
+
+    .container-produtos a{
+        display: block;
+        margin: 10px 0;
+        width: 110px;
+        padding: 10px;
+        text-decoration: none;        
+        background-color: #ffb6a9;
+        color: #290600;
+        text-align: center;
+    }
+
+    .container-produtos a:hover{
+        font-weight: bold;
+    }
+
+/* end main section*/
+
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 20px 20px 0 0;
+    background-color: #ff4e2e;
+    height: 100px;
+}
+
+.footer-menu ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.footer-menu ul li{
+    padding: 0 10px;
+    list-style: none;
+    border-right: 2px solid #ffb6a9;
+
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #ffb6a9;
+    font-weight: bold;
+}
+
+.footer-menu a:hover{
+    color: #2e0000;
+    text-decoration: underline;
+}
